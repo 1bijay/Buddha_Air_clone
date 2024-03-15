@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+ul{
+    list-style: none;
+}
+body{
+    position:relative;
+}
+.first{
+    display:inline-flex;
+    background-color: red;
+    color: white;
+    z-index:1001;
+    position:sticky;
+    top:0;
+}
+
+.first p{
+    padding:10px 10px 0 10px;
+}
+.first i{
+    padding:13px 10px 0px 10px;
+}
+
+.cont{
+    padding: 0px 200px 0px 0px;
+}
+.nav2{
+    height: 10px;
+}
+
+
+/* humberberg */
+
+.login-form{
+    position:fixed;
+    top:-120%;   
+    left:0;
+    z-index: 10000;
+    min-height: 90vh;
+    width:100%;
+    display:flex;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 110px;
+}
+.login-form.active{
+    top:0;
+}
+
+.login-form .forma{
+    margin:2rem;
+    padding:1.3rem 2rem;
+    border-radius: .5rem;
+    background: white;
+    width: 110rem;
+    height:20rem;
+} 
+.login-form #form-close{
+    position:absolute;
+    top:8.5rem;
+    right:4rem;
+    font-size: 2rem;
+    color:red;
+    cursor:pointer;
+}
+.login-form #form-close:hover{
+    color:black;
+}
+.baricon{
+    padding:9px 10px 0px 10px;
+}
+/* humberberg end */
+.bir h5{
+    text-align:center;
+}
+.bir p{
+    text-align: center;
+    padding: 0 5px;
+}
+.bir .brd{
+    border-right:1px solid black ;
+}
+.bird:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+.four{
+    background-color: #F2F7FA;
+}
+.four h1{
+    text-align: center;
+}
+.four h6{
+    text-align: center;
+}
+.owl-carousel .item{
+    background-color:#FFFFFF;
+    height: 400px;
+}
+.item img{
+    height: 300px;
+}
+.foot i{
+    font-weight: bold;
+    padding:5px;
+    margin: 2px;
+    height: 30px;
+}
+.feet{
+    background-color: #BCA233;
+    text-align: center;
+}
+
+.sli {
+    display: inline-block;
+    position: relative;
+}
+
+.sli .text {
+    background: rgba(215, 172, 172, 0.8);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -10%;
+    color:black;
+    width: 70%;
+}
